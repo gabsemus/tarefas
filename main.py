@@ -8,6 +8,5 @@ pagSelecionada = st.sidebar.selectbox('Selecione uma opção',['Inserir Tarefa',
 if pagSelecionada == 'Inserir Tarefa':
     st.title('Inserir Tarefa')
 
-else:
-    pagSelecionada == 'Todas as Tarefas'
+elif pagSelecionada == 'Todas as Tarefas':
     st.title('Tarefas')
