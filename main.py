@@ -1,6 +1,6 @@
 import streamlit as st
 
-#st.title('Lista de Tarefas')
+st.title('Lista de Tarefas da House')
 
 st.sidebar.title('Menu')
 pagSelecionada = st.sidebar.selectbox('Selecione uma opção',['Inserir Tarefa', 'Todas as Tarefas'])
