@@ -11,8 +11,8 @@ if pagSelecionada == 'Inserir Tarefa':
 
     with st.form(key='icluirTarefa'):
         tarefa = st.text_input(label='Tarefa: ')
-        data = st.time_input('Data')
-        hora = st.number_input('Hora')
+        data = st.date_input('Data')
+        hora = st.time_input('Hora')
 
 
 elif pagSelecionada == 'Todas as Tarefas':
