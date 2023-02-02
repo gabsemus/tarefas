@@ -13,6 +13,9 @@ if pagSelecionada == 'Inserir Tarefa':
         tarefa = st.text_input(label='Tarefa: ')
         data = st.date_input('Data')
         hora = st.time_input('Hora')
+        botao = st.form_submit_button('Adicionar')
+    
+    
 
 
 elif pagSelecionada == 'Todas as Tarefas':
